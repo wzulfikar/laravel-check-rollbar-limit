@@ -1,0 +1,12 @@
+{
+    "name": "wzulfikar/check-rollbar-limit",
+    "description": "Naive artisan command to check rollbar limit",
+    "authors": [
+        {
+            "name": "Wzulfikar",
+            "email": "me@wzulfikar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
