@@ -7,6 +7,14 @@
             "email": "me@wzulfikar.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Wzulfikar\\CheckRollbarLimit\\": "src/"
+        }
+    },
+    "require": {
+    	"php": ">=5.3",
+    	"illuminate/support": "4.*|5.*",
+        "rollbar/rollbar": "~0.11"
+    }
 }
